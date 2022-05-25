@@ -1,0 +1,2044 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+
+
+body {
+  background-color:#f3f6f7;
+  font-family:'Montserrat', sans-serif;
+  font-weight: 800;
+  box-sizing: border-box;
+  overflow-x: hidden;
+}
+
+
+li {
+  list-style: none;
+}
+
+
+/* Z-INDEX 
+.main -100
+.link-home 10
+.menu-items
+*/
+/** NAV **/
+
+
+
+.nav-responsive {
+  display: none;
+}
+
+.menu-items {
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.nav {
+  display: flex;
+  width: 100%;
+  height: 70px;
+  position: relative;
+  top: 0px;
+  box-shadow: 2px 0px 14px #1f1f1f;
+}
+
+.link-home {
+  width: 100%;
+  height: 100%;
+  z-index: 10;
+}
+
+.logo-nav {
+width: auto;
+height: 100%;
+display: flex;
+position: absolute;
+justify-items: center;
+align-items: center;
+left: 100px;
+}
+
+.logo-nav img {
+  display: flex;
+
+  width: auto;
+  height: 100%;
+  max-height: 80px;
+
+  padding: 5px 0px;
+  object-fit: cover;
+}
+
+.container-menu {
+  display: flex;
+  width: 100%;
+  height: 70px;
+  justify-content: center;
+}
+
+.menu {
+  display: flex;
+  font-size: 20px;
+  font-weight: bolder;
+  max-width:950px ;
+  height: 70px;
+  text-align: center;
+  text-transform: uppercase;
+  line-height: 70px;
+  letter-spacing: .1rem;
+  position: relative;
+  left: 0;
+}
+
+.menu li {
+  display: inline;
+  padding: 0px 20px;
+}
+
+.menu li a {
+  text-decoration: none;
+  color: #1f1f1f;
+}
+
+/*** NAV ***/
+
+.main {
+  display: flex;
+  width: 100%;
+  height: 67.5rem;
+  max-height:67.5rem;
+  position: relative;
+  top: 0px;
+  z-index: -100;
+}
+
+.main-div {
+  width: 100%;
+  height: 100%;
+}
+
+.main-div img{
+  display: flex;
+  width: 100%;
+  height: auto;
+  max-height: 100%;
+  object-fit: cover;
+}
+
+.text__main {
+  font-family: 'Bebas Neue', cursive;
+  font-size: 40px;
+  text-align: center;
+  letter-spacing: 3px;
+  font-weight: bolder;
+  margin-top: 20px;
+  text-shadow: 0px .1px 0px #000;
+}
+
+.text_big {
+  line-height: 100%;
+  text-align: center;
+  margin-left: px;
+  text-transform: bold;
+  letter-spacing: 3px;
+  font-size: 25px;
+  font-family: 'Bebas Neue', cursive;
+}
+
+.one {
+  margin-top: 20px;
+ 
+}
+
+
+
+h5 {
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+  font-weight: bolder;
+  margin-top: 5px;
+  
+}
+
+.container__noveltly {
+  margin: 0px 24px 0px 24px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.items__noveltly img{
+display: flex;
+}
+
+.items__noveltly img {
+  z-index: -122;
+}
+
+.container__button {
+  width: 100%;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.button__comprar {
+  border-style: none;
+  background-color: #000;
+  width: 100px;
+  height: 36px;
+  border-radius: 20px;
+}
+
+.button__comprar a{
+  text-decoration: none;
+  color: #fff;
+  font-weight: bolder;
+}
+
+.container__trend {
+  margin: 0px 24px 0px 24px;
+}
+
+.container__Nike-training {
+  display: flex;
+  width: 9999999px;
+  height: 650px;
+}
+
+.container__Nike-training ul {
+  height: auto;
+}
+
+.items__Nike-training {
+  display: inline;
+  height: 100%;
+}
+
+.container__more-jordan {
+  display: flex;
+  width: 99999999px;
+  height: 650px;
+}
+
+.footer {
+  display: flex;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+  height: 120px;
+  background-color: #121113;
+  flex-direction: column;
+}
+.container-rs {
+  width: 100%;
+  height: auto;
+  display: flex;
+}
+
+.container-rs ul {
+  display: flex;
+  width: 100%;
+  height: 25px;
+}
+
+.item-rs{
+width:auto;
+height: 25px;
+}
+
+.politicas {
+  width: 100%;
+  display: flex;
+}
+
+.container__trend {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.two {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.four {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.Featured__img-container {
+  margin: 0px 24px 10px 24px;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px){
+  .nav {
+  display: none;
+}
+  .nav-responsive {
+    display: flex;
+    width: 100%;
+    height: 70px;
+    position: relative;
+    top: 0px;
+    box-shadow: 2px 0px 14px #1f1f1f;
+}
+
+  .container {
+  max-width: 1050px;
+  width: 90%;
+  margin: auto;
+}
+
+.navbar {
+  width: 100%;
+}
+
+.item__logo {
+  position: absolute;
+  height: 20%;
+  top: 450px;
+  left: 45%;
+  
+}
+
+.item__logo img {
+  display: flex;
+
+  width: auto;
+  height: 100%;
+  max-height: 70px;
+
+  padding: 5px 0px 5px 10px;
+  object-fit: cover;
+}
+
+.nav-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 62px;
+  margin-top: 5px;
+}
+
+.navbar .menu-items {
+  display: flex;
+}
+
+.menu-items {
+  background-color: #fff;
+}
+
+.navbar .nav-container li {
+  list-style: none;
+}
+
+.navbar .nav-container a {
+  text-decoration: none;
+  color: #0e2431;
+  font-weight: 500;
+  font-size: 1.2rem;
+  padding: 0.7rem;
+}
+
+.navbar .nav-container a:hover{
+    font-weight: bolder;
+}
+
+.nav-container {
+  display: block;
+  position: relative;
+  height: 60px;
+}
+
+.nav-container .checkbox {
+  position: absolute;
+  display: block;
+  height: 32px;
+  width: 32px;
+  top: 20px;
+  left: 20px;
+  z-index: 5;
+  opacity: 0;
+  cursor: pointer;
+}
+
+.nav-container .hamburger-lines {
+  display: block;
+  height: 26px;
+  width: 32px;
+  position: absolute;
+  top: 17px;
+  left: 20px;
+  z-index: 2;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.nav-container .hamburger-lines .line {
+  display: block;
+  height: 4px;
+  width: 100%;
+  border-radius: 10px;
+  background: #0e2431;
+}
+
+.nav-container .hamburger-lines .line1 {
+  transform-origin: 0% 0%;
+  transition: transform 0.4s ease-in-out;
+}
+
+.nav-container .hamburger-lines .line2 {
+  transition: transform 0.2s ease-in-out;
+}
+
+.nav-container .hamburger-lines .line3 {
+  transform-origin: 0% 100%;
+  transition: transform 0.4s ease-in-out;
+}
+
+.navbar .menu-items {
+  padding-top: 90px;
+  box-shadow: inset 0 0 2000px rgba(255, 255, 255, .5);
+  height: 100vh;
+  width: 50%;
+  transform: translate(-150%);
+  display: flex;
+  flex-direction: column;
+  margin-left: -50px;
+  padding-left: 40px;
+  transition: transform 0.5s ease-in-out;
+  text-align: center;
+}
+
+.navbar .menu-items li {
+  margin-bottom: 1.2rem;
+  font-size: 1.5rem;
+  font-weight: 800;
+}
+
+.logo {
+  position: absolute;
+  top: 0px;
+  right: 15px;
+  font-size: 1.2rem;
+  color: #0e2431;
+}
+
+.logo-nav1 {
+  width: auto;
+height: 100%;
+display: flex;
+position: absolute;
+justify-items: center;
+align-items: center;
+
+}
+
+.logo-nav1 img {
+  display: flex;
+
+  width: auto;
+  height: 100%;
+  max-height: 60px;
+
+  object-fit: cover;
+  background-size: contain;
+}
+
+.nav-container input[type="checkbox"]:checked ~ .menu-items {
+  transform: translateX(0);
+}
+
+.nav-container input[type="checkbox"]:checked ~ .hamburger-lines .line1 {
+  transform: rotate(45deg);
+}
+
+.nav-container input[type="checkbox"]:checked ~ .hamburger-lines .line2 {
+  transform: scaleY(0);
+}
+
+.nav-container input[type="checkbox"]:checked ~ .hamburger-lines .line3 {
+  transform: rotate(-45deg);
+}
+
+.nav-container input[type="checkbox"]:checked ~ .logo{
+  display: none;
+}
+
+.items__noveltly {
+  display: flex;
+  height: 500px;
+  width: 49%;
+  margin-top:24px ;
+  position: relative;
+  flex:1 1 180px;
+}
+
+.button__comprar {
+  border-style: none;
+  background-color: #000;
+  width: 110px;
+  height: 46px;
+  border-radius: 30px;
+}
+
+.comprar2 {
+position: absolute;
+top: 440px;
+left: 10px;
+}
+
+.comprar3 {
+  position: absolute;
+  top: 540px;
+  left: 10px;
+}
+
+.items__trend{
+  height: 500px;
+  width: 50%;
+  position: relative;
+  display: flex;
+  flex:1 1 180px;
+}
+
+.three {
+  margin-bottom: 10px;
+}
+
+.items__trend:first-child, .items__noveltly:first-child {
+  margin-right: 14px;
+}
+
+
+.container__trend {
+  width: auto;
+  flex-direction: row;
+  height: 500px;
+  flex-wrap: wrap;
+}
+
+.items__noveltly span {
+  position: absolute;
+  top: 390px;
+  left: 10px;
+  text-align: justify;
+  color: #fff;
+  text-shadow: 0px 4px 14px #000;  
+}
+
+.items__trend span{
+  position: absolute;
+  top: 480px;
+  left: 15px;
+  text-align: justify;
+  color: #fff;
+  text-shadow: 0px 4px 14px #000;  
+}
+
+.items__noveltly a img {
+  height: 500px;
+  width: auto;
+  object-fit: cover;
+}
+
+.text_big {
+  font-size: 40px;
+}
+
+.link__trend {
+  position: relative;
+  width: 100%;
+}
+
+.comprar3 {
+  position: absolute;
+  top: 440px;
+}
+.button__comprar {
+  border-style: none;
+  background-color: #000;
+  width: 100px;
+  height: 36px;
+  border-radius: 20px;
+}
+
+.items__trend span{
+position: absolute;
+  top: 390px;
+  left: 15px;
+  text-align: justify;
+  color: #fff;
+  text-shadow: 0px 4px 14px #000;  
+}
+.items__trend a img {
+  height: 500px;
+  width: 100%;
+  object-fit: cover;
+}
+
+.container__Nike-training {
+  height: 350px;
+  flex-direction: ;
+}
+
+.items__Nike-training {
+  width: 370px;
+  height: 600px;
+}
+
+.items__Nike-training img {
+  max-width: 767px;
+  height: 250px;
+  width: 350px;
+  object-fit: cover;
+}
+
+.text_big {
+  margin: 10px 0px 10px 0px;
+}
+
+.container__Nike-training, .container__more-jordan {
+  align-content: center;
+}
+
+.container__Nike-training ul, .container__more-jordan ul{
+  display: flex;
+}
+
+.items__Nike-training {
+  max-width: 767px;
+  height: 250px;
+  margin: 20px 24px 0px 24px;
+  text-align: center;
+}
+
+.items__Nike-training a, .items__More-jordan a {
+  text-decoration: none;
+  color: #000;
+  position: relative;
+}
+
+.items__Nike-training a span {
+  text-align: center;
+}
+
+.container__more-jordan, .container__more-jordan ul {
+  height: 400px;
+}
+
+.items__More-jordan img {
+  max-width: 767px;
+  width: 350px;
+  height: 250px;
+  object-fit: cover;
+}
+
+.items__More-jordan {
+  display: flex;
+  max-width: 767px;
+  width: auto;
+  height: 250px;
+  margin: 20px 24px 0px 24px;
+  text-align: center;
+}
+
+.link__more-jordan, .link__nike-training {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.items__More-jordan a span, .items__Nike-training a span {
+  margin-top: 10px;
+height: auto;
+word-wrap: break-word;
+}
+
+.items__Nike-training {
+  margin-top: 0px;
+}
+
+.container-rs {
+ width: 100%;
+}
+
+.container-rs {
+  justify-content: center;
+  width: 30%;
+  margin: 10px auto;
+
+}
+
+.container-rs ul {
+
+  justify-content: center;
+}
+
+.item-rs {
+  margin: 0px 10px 0px 10px;
+
+}
+
+.item-rs a {
+  text-decoration: none;
+  color: #FDFDFF;
+}
+
+.item-rs a i {
+  font-size: 25px;
+}
+
+.politicas {
+  justify-content: center;
+  margin-bottom: 5px;
+
+}
+
+.politicas ul {
+  width: 70%;
+  display: flex;
+  flex-direction: wrap;
+
+}
+.item-politicas {
+  width: 70%;
+  margin: 2px ;
+  text-align: center;
+}
+
+.item-politicas a {
+  text-decoration: none;
+  color: #FDFDFF;
+  font-size: 15px;
+  font-weight: bold;
+
+}
+
+.h6 {
+display: flex;
+width: 100%;
+height: 20px;
+margin-top: 20px;
+justify-content: space-around;
+}
+
+.h6 h6 {
+color: #fff;
+font-size: 10px;
+}
+
+}
+
+@media screen and (min-width: 425px) and (max-width: 767px) {
+  /* NAV-RESPONSIVE */
+  .nav {
+    display: none;
+  }
+
+  .main {
+    width: auto;
+    height: auto;
+  }
+
+  .main-div {
+    height: auto;
+  }
+
+  .nav-responsive {
+  display: flex;
+  width: 100%;
+  height: 70px;
+  position: relative;
+  top: 0px;
+  box-shadow: 2px 0px 14px #1f1f1f;
+  }
+  .container {
+  max-width: 1050px;
+  width: 90%;
+  margin: auto;
+  }
+
+.navbar {
+  width: 100%;
+  max-width: 765px;
+}
+
+.nav-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 62px;
+  margin-top: 5px;
+}
+
+.navbar .menu-items {
+  display: flex;
+}
+
+.menu-items {
+  background-color: #fff;
+}
+
+.navbar .nav-container li {
+  list-style: none;
+}
+
+.navbar .nav-container a {
+  text-decoration: none;
+  color: #0e2431;
+  font-weight: 500;
+  font-size: 1.2rem;
+  padding: 0.7rem;
+}
+
+.navbar .nav-container a:hover{
+    font-weight: bolder;
+}
+
+.nav-container {
+  display: block;
+  position: relative;
+  height: 60px;
+}
+
+.nav-container .checkbox {
+  position: absolute;
+  display: block;
+  height: 32px;
+  width: 32px;
+  top: 20px;
+  left: 20px;
+  z-index: 5;
+  opacity: 0;
+  cursor: pointer;
+}
+
+.nav-container .hamburger-lines {
+  display: block;
+  height: 26px;
+  width: 32px;
+  position: absolute;
+  top: 17px;
+  left: 20px;
+  z-index: 2;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.nav-container .hamburger-lines .line {
+  display: block;
+  height: 4px;
+  width: 100%;
+  border-radius: 10px;
+  background: #0e2431;
+}
+
+.nav-container .hamburger-lines .line1 {
+  transform-origin: 0% 0%;
+  transition: transform 0.4s ease-in-out;
+}
+
+.nav-container .hamburger-lines .line2 {
+  transition: transform 0.2s ease-in-out;
+}
+
+.nav-container .hamburger-lines .line3 {
+  transform-origin: 0% 100%;
+  transition: transform 0.4s ease-in-out;
+}
+
+.navbar .menu-items {
+  padding-top: 90px;
+  box-shadow: inset 0 0 2000px rgba(255, 255, 255, .5);
+  height: 100vh;
+  width: 100%;
+  transform: translate(-150%);
+  display: flex;
+  flex-direction: column;
+  margin-left: -40px;
+  padding-left: 50px;
+  transition: transform 0.5s ease-in-out;
+  text-align: center;
+}
+
+.item__logo {
+  position: absolute;
+  height: 20%;
+  top: 450px;
+  left: 45%;
+}
+
+.item__logo img {
+  display: flex;
+
+  width: auto;
+  height: 100%;
+  max-height: 70px;
+
+  padding: 5px 0px 5px 10px;
+  object-fit: cover;
+}
+
+.navbar .menu-items li {
+  margin-bottom: 2rem;
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+
+.logo {
+  position: absolute;
+  top: 0px;
+  right: 15px;
+  font-size: 1.2rem;
+  color: #0e2431;
+}
+
+.logo-nav1 {
+  width: auto;
+height: 100%;
+display: flex;
+position: absolute;
+justify-items: center;
+align-items: center;
+
+}
+
+.logo-nav1 img {
+  display: flex;
+
+  width: auto;
+  height: 100%;
+  max-height: 60px;
+  object-fit: cover;
+}
+
+.nav-container input[type="checkbox"]:checked ~ .menu-items {
+  transform: translateX(0);
+}
+
+.nav-container input[type="checkbox"]:checked ~ .hamburger-lines .line1 {
+  transform: rotate(45deg);
+}
+
+.nav-container input[type="checkbox"]:checked ~ .hamburger-lines .line2 {
+  transform: scaleY(0);
+}
+
+.nav-container input[type="checkbox"]:checked ~ .hamburger-lines .line3 {
+  transform: rotate(-45deg);
+}
+
+.nav-container input[type="checkbox"]:checked ~ .logo{
+  display: none;
+}
+
+.items__noveltly {
+  height: 500px;
+  width: 49%;
+  margin-top:24px ;
+  position: relative;
+  flex:1 1 180px;
+}
+
+.items__noveltly:first-child {
+  margin-right: 14px ;
+}
+
+.items__noveltly a img {
+  height: 500px;
+  width: auto;
+  object-fit: cover;
+}
+
+.items__noveltly span {
+  position: absolute;
+  top: 390px;
+  left: 10px;
+  text-align: justify;
+  color: #fff;
+  text-shadow: 0px 4px 14px #000;  
+}
+
+.comprar2 {
+position: relative;
+top: -50px;
+left: 10px;
+}
+
+.container__noveltly {
+  margin-bottom: 20px;
+}
+
+.items__trend{
+  height: 500px;
+  width: 49%;
+  margin-top:20px ;
+  margin-bottom: 20px;
+  position: relative;
+  display: flex;
+  flex:1 1 180px;
+}
+
+.items__trend:first-child {
+  margin-right: 14px;
+}
+
+
+.container__trend {
+  width: auto;
+  flex-direction: row;
+  height: auto;
+  flex-wrap: wrap;
+}
+
+.items__trend a img {
+  height: 500px;
+  width: auto;
+  object-fit: cover;
+  flex-grow: ;
+}
+
+.items__trend span{
+position: absolute;
+  top: 386px;
+  left: 15px;
+  text-align: justify;
+  color: #fff;
+  text-shadow: 0px 4px 14px #000;  
+}
+
+.comprar3 {
+  position: absolute;
+  top: 430px;
+  left: 10px;
+}
+
+.container__Nike-training ul {
+  height: 350px;
+
+}
+
+.container__Nike-training {
+  height: 350px;
+  flex-direction: ;
+}
+
+.items__Nike-training {
+  width: auto;
+  height: 400px;
+}
+
+.items__Nike-training img {
+  max-width: 767px;
+  height: 250px;
+  width: 272px;
+  object-fit: cover;
+}
+
+.container__Nike-training ul, .container__more-jordan ul{
+  display: flex;
+}
+
+.items__Nike-training {
+  max-width: 767px;
+  height: 250px;
+  margin: 20px 24px 0px 24px;
+  text-align: center;
+}
+
+.items__Nike-training a, .items__More-jordan a {
+  text-decoration: none;
+  color: #000;
+  position: relative;
+}
+
+.items__Nike-training a span {
+  text-align: center;
+}
+
+.container__more-jordan, .container__more-jordan ul {
+  height: 350px;
+}
+
+.items__More-jordan img {
+  max-width: 767px;
+  height: 250px;
+  object-fit: cover;
+}
+
+.items__More-jordan {
+  display: flex;
+  max-width: 767px;
+  width: auto;
+  height: 250px;
+  margin-left: 24px;
+  margin-right: 24px;
+  margin-top: 20px;
+  text-align: center;
+}
+
+.link__more-jordan, .link__nike-training {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.items__More-jordan a span {
+height: auto;
+word-wrap: break-word;
+}
+
+.price {
+  font-family: 'Montserrat', sans-serif;
+  position: absolute;
+  text-align: center;
+  width: 100%;
+  bottom: -30px;
+}
+
+.price2 {
+  font-family: 'Montserrat', sans-serif;
+  position: absolute;
+  text-align: center;
+  width: 100%;
+  bottom: -60px;
+}
+
+.four {
+  margin-top: 20px;
+}
+
+.container-rs {
+ width: 100%;
+}
+
+.container-rs {
+  padding-bottom: 10px;
+  margin-top: 10px;
+
+}
+
+.container-rs ul {
+  justify-content: center;
+}
+
+.item-rs {
+  margin: 0px 10px 0px 10px;
+
+}
+
+.item-rs a {
+  text-decoration: none;
+  color: #FDFDFF;
+}
+
+.item-rs a i {
+  font-size: 20px;
+}
+
+.politicas {
+  justify-content: center;
+  margin-bottom: 5px;
+  margin-top: 10px;
+
+}
+
+.politicas ul {
+  width: 80%;
+  display: flex;
+  flex-direction: wrap;
+
+}
+.item-politicas {
+  width: 70%;
+  margin: 2px ;
+  text-align: center;
+}
+
+.item-politicas a {
+  text-decoration: none;
+  color: #FDFDFF;
+  font-size: 12px;
+  font-weight: bold;
+
+}
+
+.h6 {
+display: flex;
+width: 100%;
+height: 20px;
+margin-top: 20px;
+justify-content: center;
+}
+
+.h6 h6 {
+color: #fff;
+font-size: 8px;
+}
+
+
+}
+
+@media screen and (min-width: 375px) and (max-width: 424px){
+  /* NAV-RESPONSIVE */
+.nav {
+  display: none;
+}
+.item__logo {
+  position: absolute;
+  height: 20%;
+  top: 450px;
+  left: 45%;
+  
+}
+
+.main {
+  height: auto;
+}
+
+.item__logo img {
+  display: flex;
+
+  width: auto;
+  height: 100%;
+  max-height: 70px;
+
+  padding: 5px 0px 5px 0px;
+  object-fit: cover;
+}
+.menu-items {
+  padding-right:15px ;
+}
+.nav-responsive {
+    display: flex;
+    width: 100%;
+    height: 70px;
+    position: relative;
+    top: 0px;
+    box-shadow: 2px 0px 14px #1f1f1f;
+  }
+  .container {
+  max-width: 1050px;
+  width: 90%;
+  margin: auto;
+  }
+
+.navbar {
+  width: 100%;
+}
+
+.nav-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 62px;
+  margin-top: 5px;
+}
+
+.navbar .menu-items {
+  display: flex;
+}
+
+.menu-items {
+  background-color: #fff;
+}
+
+.navbar .nav-container li {
+  list-style: none;
+}
+
+.navbar .nav-container a {
+  text-decoration: none;
+  color: #0e2431;
+  font-weight: 500;
+  font-size: 1.2rem;
+  padding: 0.7rem;
+}
+
+.navbar .nav-container a:hover{
+    font-weight: bolder;
+}
+
+.nav-container {
+  display: block;
+  position: relative;
+  height: 60px;
+}
+
+.nav-container .checkbox {
+  position: absolute;
+  display: block;
+  height: 32px;
+  width: 32px;
+  top: 20px;
+  left: 20px;
+  z-index: 5;
+  opacity: 0;
+  cursor: pointer;
+}
+
+.nav-container .hamburger-lines {
+  display: block;
+  height: 26px;
+  width: 32px;
+  position: absolute;
+  top: 17px;
+  left: 20px;
+  z-index: 2;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.nav-container .hamburger-lines .line {
+  display: block;
+  height: 4px;
+  width: 100%;
+  border-radius: 10px;
+  background: #0e2431;
+}
+
+.nav-container .hamburger-lines .line1 {
+  transform-origin: 0% 0%;
+  transition: transform 0.4s ease-in-out;
+}
+
+.nav-container .hamburger-lines .line2 {
+  transition: transform 0.2s ease-in-out;
+}
+
+.nav-container .hamburger-lines .line3 {
+  transform-origin: 0% 100%;
+  transition: transform 0.4s ease-in-out;
+}
+
+.navbar .menu-items {
+  padding-top: 90px;
+  box-shadow: inset 0 0 2000px rgba(255, 255, 255, .5);
+  height: 100vh;
+  width: 100%;
+  transform: translate(-150%);
+  display: flex;
+  flex-direction: column;
+  margin-left: -40px;
+  padding-left: 50px;
+  transition: transform 0.5s ease-in-out;
+  text-align: center;
+}
+
+.item__logo {
+  position: absolute;
+  height: 20%;
+  top: 450px;
+  left: 45%;
+  
+}
+
+.item__logo img {
+  display: flex;
+
+  width: auto;
+  height: 100%;
+  max-height: 70px;
+
+  padding: 5px 0px 5px 10px;
+  object-fit: cover;
+}
+
+.navbar .menu-items li {
+  margin-bottom: 2rem;
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+
+.logo {
+  position: absolute;
+  top: 0px;
+  right: 15px;
+  font-size: 1.2rem;
+  color: #0e2431;
+}
+
+.logo-nav1 {
+  width: auto;
+height: 100%;
+display: flex;
+position: absolute;
+justify-items: center;
+align-items: center;
+
+}
+
+.logo-nav1 img {
+  display: flex;
+  width: auto;
+  height: 100%;
+  max-height: 60px;
+  background-size:cover ;
+  padding: 5px 0px;
+  object-fit: cover;
+}
+
+.nav-container input[type="checkbox"]:checked ~ .menu-items {
+  transform: translateX(0);
+}
+
+.nav-container input[type="checkbox"]:checked ~ .hamburger-lines .line1 {
+  transform: rotate(45deg);
+}
+
+.nav-container input[type="checkbox"]:checked ~ .hamburger-lines .line2 {
+  transform: scaleY(0);
+}
+
+.nav-container input[type="checkbox"]:checked ~ .hamburger-lines .line3 {
+  transform: rotate(-45deg);
+}
+
+.nav-container input[type="checkbox"]:checked ~ .logo{
+  display: none;
+}
+
+.items__noveltly {
+  height: 500px;
+  width: 100%;
+  margin-top:24px ;
+  position: relative;
+}
+
+.items__noveltly a img {
+  height: 500px;
+  width: auto;
+  object-fit: cover;
+}
+
+.items__noveltly span {
+  position: absolute;
+  top: 400px;
+  left: 10px;
+  text-align: justify;
+  color: #fff;
+  text-shadow: 0px 4px 14px #000;  
+}
+
+.comprar2 {
+position: relative;
+top: -50px;
+left: 10px;
+}
+
+.container__noveltly {
+  margin-bottom: 20px;
+}
+
+.items__trend{
+  height: 500px;
+  width: 100%;
+  margin-top:20px ;
+  position: relative;
+}
+
+.items__trend a img {
+  height: 500px;
+  width: auto;
+  object-fit: cover;
+}
+
+.items__trend span{
+position: absolute;
+  top: 386px;
+  left: 15px;
+  text-align: justify;
+  color: #fff;
+  text-shadow: 0px 4px 14px #000;  
+}
+
+.comprar3 {
+  position: relative;
+  top: -70px;
+  left: 10px;
+}
+
+.container__Nike-training ul {
+  height: 350px;
+
+}
+
+.container__Nike-training {
+  height: 350px;
+  flex-direction: ;
+}
+
+.items__Nike-training {
+  width: auto;
+  height: 400px;
+}
+
+.items__Nike-training img {
+  max-width: 272px;
+  height: 250px;
+  width: 272px;
+  object-fit: cover;
+}
+
+.container__Nike-training ul, .container__more-jordan ul{
+  display: flex;
+}
+
+.items__Nike-training {
+  max-width: 272px;
+  height: 250px;
+  margin: 20px 24px 0px 24px;
+  text-align: center;
+}
+
+.items__Nike-training a, .items__More-jordan a {
+  text-decoration: none;
+  color: #000;
+  position: relative;
+}
+
+.items__Nike-training a span {
+  text-align: center;
+}
+
+.container__more-jordan, .container__more-jordan ul {
+  height: 350px;
+}
+
+.items__More-jordan img {
+  max-width: 272px;
+  height: 250px;
+  object-fit: cover;
+}
+
+.items__More-jordan {
+  display: flex;
+  max-width: 272px;
+  width: 100vh;
+  height: 250px;
+  margin-left: 24px;
+  margin-right: 24px;
+  margin-top: 20px;
+  text-align: center;
+}
+
+.link__more-jordan, .link__nike-training {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.items__More-jordan a span {
+height: auto;
+word-wrap: break-word;
+}
+
+.price {
+  font-family: 'Montserrat', sans-serif;
+  position: absolute;
+  text-align: center;
+  width: 100%;
+  bottom: -30px;
+}
+
+.four {
+  margin-top: 20px;
+}
+
+.container-rs {
+ width: 100%;
+}
+
+.container-rs {
+  padding-bottom: 10px;
+  margin-top: 10px;
+
+}
+
+.container-rs ul {
+  justify-content: center;
+}
+
+.item-rs {
+  margin: 0px 10px 0px 10px;
+
+}
+
+.item-rs a {
+  text-decoration: none;
+  color: #FDFDFF;
+}
+
+.item-rs a i {
+  font-size: 20px;
+}
+
+.politicas {
+  justify-content: center;
+  margin-bottom: 5px;
+  margin-top: 10px;
+
+}
+
+.politicas ul {
+  width: 80%;
+  display: flex;
+  flex-direction: wrap;
+
+}
+.item-politicas {
+  width: 70%;
+  margin: 2px ;
+  text-align: center;
+}
+
+.item-politicas a {
+  text-decoration: none;
+  color: #FDFDFF;
+  font-size: 12px;
+  font-weight: bold;
+
+}
+
+.h6 {
+display: flex;
+width: 100%;
+height: 20px;
+margin-top: 20px;
+justify-content: center;
+}
+
+.h6 h6 {
+color: #fff;
+font-size: 8px;
+}
+
+
+}
+
+@media screen and (min-width: 300px) and (max-width: 374px){
+    /* NAV-RESPONSIVE */
+    .nav {
+      display: none;
+    }
+    .menu-items {
+      padding-right: 15px;
+    }
+    .nav-responsive {
+    display: flex;
+    width: 100%;
+    height: 70px;
+    position: relative;
+    top: 0px;
+    box-shadow: 2px 0px 14px #1f1f1f;
+  }
+  .main {
+    height: auto;
+  }
+  .container {
+  max-width: 1050px;
+  width: 90%;
+  margin: auto;
+  }
+
+.main-div img {
+  object-fit: contain;
+}
+
+.navbar {
+  width: 100%;
+}
+
+.nav-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 62px;
+  margin-top: 5px;
+}
+
+.navbar .menu-items {
+  display: flex;
+}
+
+.menu-items {
+  background-color: #fff;
+}
+
+.navbar .nav-container li {
+  list-style: none;
+}
+
+.navbar .nav-container a {
+  text-decoration: none;
+  color: #0e2431;
+  font-weight: 500;
+  font-size: 1.2rem;
+  padding: 0.7rem;
+}
+
+.navbar .nav-container a:hover{
+    font-weight: bolder;
+}
+
+.nav-container {
+  display: block;
+  position: relative;
+  height: 60px;
+}
+
+.nav-container .checkbox {
+  position: absolute;
+  display: block;
+  height: 32px;
+  width: 32px;
+  top: 20px;
+  left: 20px;
+  z-index: 5;
+  opacity: 0;
+  cursor: pointer;
+}
+
+.nav-container .hamburger-lines {
+  display: block;
+  height: 26px;
+  width: 32px;
+  position: absolute;
+  top: 17px;
+  left: 20px;
+  z-index: 2;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.nav-container .hamburger-lines .line {
+  display: block;
+  height: 4px;
+  width: 100%;
+  border-radius: 10px;
+  background: #0e2431;
+}
+
+.nav-container .hamburger-lines .line1 {
+  transform-origin: 0% 0%;
+  transition: transform 0.4s ease-in-out;
+}
+
+.nav-container .hamburger-lines .line2 {
+  transition: transform 0.2s ease-in-out;
+}
+
+.nav-container .hamburger-lines .line3 {
+  transform-origin: 0% 100%;
+  transition: transform 0.4s ease-in-out;
+}
+
+.navbar .menu-items {
+  padding-top: 90px;
+  box-shadow: inset 0 0 2000px rgba(255, 255, 255, .5);
+  height: 100vh;
+  width: 100%;
+  transform: translate(-150%);
+  display: flex;
+  flex-direction: column;
+  margin-left: -40px;
+  padding-left: 50px;
+  transition: transform 0.5s ease-in-out;
+  text-align: center;
+}
+
+.item__logo {
+  position: absolute;
+  height: 20%;
+  top: 450px;
+  left: 45%;
+  
+}
+
+.item__logo img {
+  display: flex;
+
+  width: auto;
+  height: 100%;
+  max-height: 70px;
+
+  padding: 5px 0px 5px 10px;
+  object-fit: cover;
+}
+
+.navbar .menu-items li {
+  margin-bottom: 2rem;
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+
+.logo {
+  position: absolute;
+  top: 0px;
+  right: 15px;
+  font-size: 1.2rem;
+  color: #0e2431;
+}
+
+.logo-nav1 {
+  width: auto;
+height: 100%;
+display: flex;
+position: absolute;
+justify-items: center;
+align-items: center;
+
+
+}
+
+.logo-nav1 img {
+  display: flex;
+
+  width: auto;
+  height: 100%;
+  max-height: 70px;
+
+  padding: 5px 5px;
+  object-fit: cover;
+  background-size: cover;
+}
+
+
+.nav-container input[type="checkbox"]:checked ~ .menu-items {
+  transform: translateX(0);
+}
+
+.nav-container input[type="checkbox"]:checked ~ .hamburger-lines .line1 {
+  transform: rotate(45deg);
+}
+
+.nav-container input[type="checkbox"]:checked ~ .hamburger-lines .line2 {
+  transform: scaleY(0);
+}
+
+.nav-container input[type="checkbox"]:checked ~ .hamburger-lines .line3 {
+  transform: rotate(-45deg);
+}
+
+.nav-container input[type="checkbox"]:checked ~ .logo{
+  display: none;
+}
+
+.container__noveltly {
+  height: 1048px;
+}
+
+.items__noveltly {
+  height: 500px;
+  width: 100%;
+  margin-top:24px ;
+  position: relative;
+}
+
+
+.items__noveltly a img {
+  height: 500px;
+  width: 272x;
+  object-fit: cover;
+}
+
+.comprar2 {
+  position: relative;
+  top: -50px;
+  left: 10px;
+}
+
+.items__noveltly span {
+  position: absolute;
+  top: 400px;
+  left: 10px;
+  text-align: justify;
+  color: #fff;
+  text-shadow: 0px 4px 14px #000;  
+}
+
+.container__trend {
+  height: 1048px;
+}
+
+
+.items__trend{
+ height: 500px;
+  width: 100%;
+  margin-top:24px ;
+  position: relative;
+}
+
+.items__trend a img {
+  height: 500px;
+  width: 272x;
+  object-fit: cover;
+}
+
+.items__trend span{
+position: absolute;
+  top: 386px;
+  left: 10px;
+  text-align: justify;
+  color: #fff;
+  text-shadow: 0px 4px 14px #000;  
+}
+
+.comprar3 {
+  position: relative;
+  top: -70px;
+  left: 10px;
+}
+
+.container__Nike-training ul {
+  height: 350px;
+
+}
+
+.container__Nike-training {
+  height: 350px;
+  flex-direction: ;
+}
+
+.items__Nike-training {
+  width: auto;
+  height: 400px;
+}
+
+.items__Nike-training img {
+  max-width: 272px;
+  height: 250px;
+  width: 272px;
+  object-fit: cover;
+}
+
+.container__Nike-training ul, .container__more-jordan ul{
+  display: flex;
+}
+
+.items__Nike-training {
+  max-width: 272px;
+  height: 250px;
+  margin: 20px 24px 0px 24px;
+  text-align: center;
+}
+
+.items__Nike-training a, .items__More-jordan a {
+  text-decoration: none;
+  color: #000;
+}
+
+.items__Nike-training a span {
+  text-align: center;
+}
+
+.container__more-jordan, .container__more-jordan ul {
+  height: 350px;
+}
+
+.items__More-jordan img {
+  max-width: 272px;
+  height: 250px;
+  object-fit: cover;
+  
+}
+
+.items__More-jordan {
+  max-width: 272px;
+  height: 250px;
+  margin-left: 24px;
+  margin-right: 24px;
+  margin-top: 20px;
+  text-align: center;
+}
+
+.price {
+  font-family: 'Montserrat', sans-serif;
+  position: absolute;
+  left: 118px;
+  bottom: -25px;
+}
+
+.container-rs {
+ width: 100%;
+}
+
+.container-rs {
+  padding-bottom: 10px;
+  margin-top: 10px;
+
+}
+
+.container-rs ul {
+  justify-content: center;
+}
+
+.item-rs {
+  margin: 0px 10px 0px 10px;
+
+}
+
+.item-rs a {
+  text-decoration: none;
+  color: #FDFDFF;
+}
+
+.item-rs a i {
+  font-size: 20px;
+}
+
+.politicas {
+  justify-content: center;
+  margin-bottom: 5px;
+  margin-top: 10px;
+
+}
+
+.politicas ul {
+  width: 80%;
+  display: flex;
+  flex-direction: wrap;
+
+}
+.item-politicas {
+  width: 70%;
+  margin: 2px ;
+  text-align: center;
+}
+
+.item-politicas a {
+  text-decoration: none;
+  color: #FDFDFF;
+  font-size: 12px;
+  font-weight: bold;
+
+}
+
+.link__nike-training, .link__more-jordan {
+  position: relative;
+}
+
+
+
+.h6 {
+display: flex;
+width: 100%;
+height: 20px;
+margin-top: 20px;
+justify-content: center;
+}
+
+.h6 h6 {
+color: #fff;
+font-size: 8px;
+}
+
+
+}
